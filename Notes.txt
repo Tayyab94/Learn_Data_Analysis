@@ -1,0 +1,13 @@
+conda create env -name "Name"
+
+
+conda activate "Name" // for deactivate use deactivate command
+
+then install python
+
+conda install python
+
+// install ipykernel . 
+
+pip install ipykernel
+python -m ipykernel install --user --name="name of env" --display-name="name of env
